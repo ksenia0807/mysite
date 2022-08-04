@@ -1,0 +1,86 @@
+<h2 align="center"><a name="2">Ламинирование и ботокс ресниц</a></h2>
+
+<div align="center" class="bord1">Длительность: <span class="dlit">1 день</span></div>
+<div align="center" class="bord1">Стоимость: <span class="dlit"></span><img src="https://lash.ru/upload/iblock/d6d/d6dbed8b4b6c6a3953aabc091c413b28.png" width="680px"></div>
+<div align="center" class="bord2">Если вы хотите расширить спектр предоставляемых услуг или повысить свою квалификацию, вы можете пройти обучение ламинированию ресниц. Курс включает в себя полную теоретическую базу и отработка практических навыков на модели.</div>
+<input type="checkbox" class="read-more-checker" id="read-more-checker" />
+<div align="left" class="limited l">
+<h4>Все о ламинировании ресниц от А до Я</h4>
+<ul>
+<li>Обзор фирм: плюсы и минусы.</li>
+<li>Составы и их свойства.</li>
+<li>Размеры валиков и их применение.</li>
+<li>Ошибки при подборе.</li>
+<li>Правильная работа с инструментом МФИ.</li>
+<li>Интенсивность натяжки и результат.</li>
+<li>Работа со сложными ресницами.</li>
+<li>Составы для ламинирования.</li>
+<li>Составы для ботокса ресниц.</li>
+<li>Выдержка составов от структуры ресниц.</li>
+<li>Отработка на модели.</li>
+</ul>
+<p align="center">Обучение ламинированию ресниц включает в себя практику на модели, где вы отработаете полученные навыки под контролем преподавателя.
+После курса у вас останется методическое пособие, которое вам всегда напомнит все этапы, которые необходимо соблюдать.
+По окончании обучения ламинирования ресниц в нашей школе, вы получите от нас сертификат.</p>
+<div class="bottom"></div>
+</div>
+<label for="read-more-checker" class="read-more-button"></label>
+<br><br><br>
+*******************************************************
+.limited {
+            max-height: 400px;
+            overflow: hidden;
+            position: relative;
+        }
+        .limited.l {
+            max-height: 1px;
+			border: 8px solid #ffe4e1	;
+			background: #ffe4e1;
+			width: 700px; 
+			padding: 5px; 
+			margin: auto;
+			list-style-type: circle;
+			font-family: monospace;
+        }
+        
+    
+        .limited .bottom {
+            position: absolute;
+            bottom: 0;
+            background: #ffe4e1;
+            width: 100%;
+            height: 1px;
+            opacity: 1;
+            transition: .3s;
+        }
+        .read-more-checker {
+            opacity: 0;
+            position: absolute;
+        }
+        .read-more-checker:checked ~ .limited {
+            max-height: none;
+        }
+        .read-more-checker:checked ~ .limited .bottom {
+            opacity: 0;
+            transition: .3s;
+        }
+        .read-more-checker ~ .read-more-button:before {
+            content: 'подробнее о курсе »';
+        }
+        .read-more-checker:checked ~ .read-more-button:before {
+            content: 'скрыть «';
+        }
+        .read-more-button {
+            cursor: pointer;
+            display: inline-block;
+            padding: 10px;
+            color: #bc8f8f	;
+            border: 1px solid #bc8f8f	;
+			
+            border-radius: 4px;
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+			width: 700px; 
+	    }
+		
